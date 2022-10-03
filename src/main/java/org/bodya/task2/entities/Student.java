@@ -6,11 +6,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student>{
 
     private String name;
     private String surname;
-    private Map<Subject, Integer> marks = new HashMap<>();
 
     public Student() {
     }
@@ -18,12 +17,6 @@ public class Student {
     public Student(String name, String surname) {
         this.name = name;
         this.surname = surname;
-    }
-
-    public Student(String name, String surname, Map<Subject, Integer> marks) {
-        this.name = name;
-        this.surname = surname;
-        this.marks = marks;
     }
 
     public String getName() {
@@ -42,12 +35,15 @@ public class Student {
         this.surname = surname;
     }
 
-    public Map<Subject, Integer> getMarks() {
-        return marks;
-    }
+    @Override
+    public int compareTo(Student e) {
+        int nameCompare = this.getName().compareTo(e.getName());
 
-    public void setMarks(Map<Subject, Integer> marks) {
-        this.marks = marks;
+        if(nameCompare==0){
+            return this.surname.compareTo(e.getSurname());
+        }
+
+        return nameCompare;
     }
 
     @Override
@@ -55,20 +51,19 @@ public class Student {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
-        return Objects.equals(name, student.name) && Objects.equals(surname, student.surname) && Objects.equals(marks, student.marks);
+        return Objects.equals(name, student.name) && Objects.equals(surname, student.surname);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, surname, marks);
+        return Objects.hash(name, surname);
     }
 
     @Override
     public String toString() {
-        return "\n\t\t\t\tStudent{" +
+        return "Student{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-                ", marks=" + marks +
                 '}';
     }
 }

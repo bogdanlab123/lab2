@@ -9,21 +9,21 @@ import java.util.Objects;
 
 public class Schedule {
 
-    private Map<LocalDate, List<Subject>> schedule;
+    private Map<LocalDate, List<Subject>> scheduleMap;
 
     public Schedule() {
     }
 
-    public Schedule(Map<LocalDate, List<Subject>> schedule) {
-        this.schedule = schedule;
+    public Schedule(Map<LocalDate, List<Subject>> scheduleMap) {
+        this.scheduleMap = scheduleMap;
     }
 
-    public Map<LocalDate, List<Subject>> getSchedule() {
-        return schedule;
+    public Map<LocalDate, List<Subject>> getScheduleMap() {
+        return scheduleMap;
     }
 
-    public void setSchedule(Map<LocalDate, List<Subject>> schedule) {
-        this.schedule = schedule;
+    public void setScheduleMap(Map<LocalDate, List<Subject>> scheduleMap) {
+        this.scheduleMap = scheduleMap;
     }
 
     @Override
@@ -31,18 +31,18 @@ public class Schedule {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Schedule schedule1 = (Schedule) o;
-        return Objects.equals(schedule, schedule1.schedule);
+        return Objects.equals(scheduleMap, schedule1.scheduleMap);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(schedule);
+        return Objects.hash(scheduleMap);
     }
 
     @Override
     public String toString() {
-        return "\n\t\t\t\tSchedule{" +
-                "\n\t\t\t\t\tschedule=" + schedule +
+        return "Schedule{" +
+                "\n\tscheduleMap=" + scheduleMap +
                 '}';
     }
 }

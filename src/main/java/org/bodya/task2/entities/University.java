@@ -38,7 +38,7 @@ public class University {
     @Override
     public String toString() {
         return "University{" +
-                "\n\tgroups=" + groups +
+                "\n\t" + groups +
                 "\n}";
     }
 }

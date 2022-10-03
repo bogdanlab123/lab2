@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2850bb0-ec07-4181-98b6-6349aedc6f3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task1/DoubleLinkedDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task1/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/enums/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/initService/InitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task3/service/UniversityService.java" afterDir="false" />
+    <list default="true" id="f2850bb0-ec07-4181-98b6-6349aedc6f3b" name="Changes" comment="Task 1,2 done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task3/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task4/MarksJournal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/enums/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/enums/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/initService/InitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/initService/InitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task3/service/UniversityService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +55,26 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.bodya.task1.Main">
+  <component name="RunManager" selected="Application.org.bodya.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.bodya.task2.Main" />
       <module name="bodya" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.bodya.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.bodya.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.bodya.Main" />
+      <module name="bodya" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bodya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,10 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.bodya.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.bodya.task3.Main" />
+      <module name="bodya" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bodya.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.bodya.task1.Main" />
+        <item itemvalue="Application.org.bodya.Main" />
+        <item itemvalue="Application.org.bodya.task3.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.bodya.task1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -107,8 +128,18 @@
       <workItem from="1664543593368" duration="7381000" />
       <workItem from="1664570950997" duration="2440000" />
       <workItem from="1664613581596" duration="8257000" />
-      <workItem from="1664713643737" duration="1878000" />
+      <workItem from="1664713643737" duration="12292000" />
+      <workItem from="1664744506100" duration="4598000" />
+      <workItem from="1664821031743" duration="1483000" />
     </task>
+    <task id="LOCAL-00001" summary="Task 1,2 done">
+      <created>1664715641223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664715641223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,5 +155,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 1,2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1,2 done" />
   </component>
 </project>

@@ -6,5 +6,6 @@ public enum Subject {
     PROGRAMMING,
     MATHEMATICS,
     PHYSICS,
-    LITERATURE
+    LITERATURE,
+    SYSTEM_PROGRAMMING
 }
