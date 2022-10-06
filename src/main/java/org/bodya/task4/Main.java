@@ -1,4 +1,4 @@
-package org.bodya;
+package org.bodya.task4;
 
 import org.bodya.task2.entities.Student;
 import org.bodya.task2.entities.University;

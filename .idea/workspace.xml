@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2850bb0-ec07-4181-98b6-6349aedc6f3b" name="Changes" comment="Task 1,2 done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task3/service/GroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task4/MarksJournal.java" afterDir="false" />
+    <list default="true" id="f2850bb0-ec07-4181-98b6-6349aedc6f3b" name="Changes" comment="Task 3,4 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Schedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/enums/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/enums/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/initService/InitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task2/initService/InitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/task3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task3/service/UniversityService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +120,8 @@
       <workItem from="1664713643737" duration="12292000" />
       <workItem from="1664744506100" duration="4598000" />
       <workItem from="1664821031743" duration="1483000" />
+      <workItem from="1664822553405" duration="1040000" />
+      <workItem from="1664868127425" duration="562000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1,2 done">
       <created>1664715641223</created>
@@ -139,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664715641223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task 3,4 done">
+      <created>1664822995291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664822995291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 1,2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1,2 done" />
+    <MESSAGE value="Task 3,4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3,4 done" />
   </component>
 </project>
