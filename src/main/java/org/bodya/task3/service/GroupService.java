@@ -27,14 +27,6 @@ public class GroupService {
                 System.out.printf("Студент " + entry.getKey().getName() + ' ' + entry.getKey().getSurname() + " вже має предмет " + subject + '.');
             }
         }
-//        for (Student student : group.getStudents()) {
-//            // Якщо в студента нема такого предмету
-//            if (!student. getMarks().containsKey(subject)) {
-//                student.getMarks().put(subject, mark);
-//            } else {
-//                System.out.printf("Студент {} {} вже має предмет {}", student.getName(), student.getSurname(), subject);
-//            }
-//        }
     }
 
     /**
