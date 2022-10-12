@@ -1,7 +1,7 @@
-package org.bodya.task2.entities;
+package org.bodya.lab2.task2.entities;
 
-import org.bodya.task2.enums.Subject;
-import org.bodya.task4.MarksJournal;
+import org.bodya.lab2.task2.enums.Subject;
+import org.bodya.lab2.task4.MarksJournal;
 
 import java.util.List;
 import java.util.Map;

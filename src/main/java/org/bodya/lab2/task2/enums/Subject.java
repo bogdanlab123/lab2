@@ -1,4 +1,4 @@
-package org.bodya.task2.enums;
+package org.bodya.lab2.task2.enums;
 
 public enum Subject {
     UKRAINIAN,

@@ -1,8 +1,8 @@
-package org.bodya.task2;
+package org.bodya.lab2.task2;
 
-import org.bodya.task2.entities.University;
+import org.bodya.lab2.task2.entities.University;
 
-import static org.bodya.task2.initService.InitService.initUniversity;
+import static org.bodya.lab2.task2.initService.InitService.initUniversity;
 
 public class Main {
 

@@ -1,8 +1,8 @@
-package org.bodya.task3.service;
+package org.bodya.lab2.task3.service;
 
-import org.bodya.task2.entities.Group;
-import org.bodya.task2.entities.Student;
-import org.bodya.task2.enums.Subject;
+import org.bodya.lab2.task2.entities.Group;
+import org.bodya.lab2.task2.entities.Student;
+import org.bodya.lab2.task2.enums.Subject;
 
 import java.time.LocalDate;
 import java.util.*;

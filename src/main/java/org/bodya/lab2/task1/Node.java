@@ -1,4 +1,4 @@
-package org.bodya.task1;
+package org.bodya.lab2.task1;
 
 public class Node<T>{
     private T data;

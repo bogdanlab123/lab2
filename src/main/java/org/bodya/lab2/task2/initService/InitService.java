@@ -1,17 +1,14 @@
-package org.bodya.task2.initService;
+package org.bodya.lab2.task2.initService;
 
-import org.bodya.task2.entities.Group;
-import org.bodya.task2.entities.Schedule;
-import org.bodya.task2.entities.Student;
-import org.bodya.task2.entities.University;
-import org.bodya.task2.enums.Subject;
-import org.bodya.task4.MarksJournal;
+import org.bodya.lab2.task2.entities.Group;
+import org.bodya.lab2.task2.entities.Schedule;
+import org.bodya.lab2.task2.entities.Student;
+import org.bodya.lab2.task2.enums.Subject;
+import org.bodya.lab2.task2.entities.University;
+import org.bodya.lab2.task4.MarksJournal;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.*;
-
-import static org.bodya.task2.enums.Subject.*;
 
 /**
  * Допоміжний клас для ініціалізаії всіх полів класу.
@@ -106,12 +103,12 @@ public class InitService {
     private static Map<Subject, Boolean> initSubjectBooleanMap() {
         Map<Subject, Boolean> booleanMap = new HashMap<>();
 
-        booleanMap.put(ENGLISH, true);
-        booleanMap.put(UKRAINIAN, true);
-        booleanMap.put(MATHEMATICS, true);
-        booleanMap.put(PHYSICS, true);
-        booleanMap.put(LITERATURE, true);
-        booleanMap.put(PROGRAMMING, true);
+        booleanMap.put(Subject.ENGLISH, true);
+        booleanMap.put(Subject.UKRAINIAN, true);
+        booleanMap.put(Subject.MATHEMATICS, true);
+        booleanMap.put(Subject.PHYSICS, true);
+        booleanMap.put(Subject.LITERATURE, true);
+        booleanMap.put(Subject.PROGRAMMING, true);
 
         return booleanMap;
     }
@@ -129,12 +126,12 @@ public class InitService {
         for (Student student : students) {
             Map<Subject, Integer> subjectIntegerMap = new HashMap<>();
 
-            subjectIntegerMap.put(UKRAINIAN, new Random().nextInt(5) + 1);
-            subjectIntegerMap.put(ENGLISH, new Random().nextInt(5) + 1);
-            subjectIntegerMap.put(PROGRAMMING, new Random().nextInt(5) + 1);
-            subjectIntegerMap.put(MATHEMATICS, new Random().nextInt(5) + 1);
-            subjectIntegerMap.put(PHYSICS, new Random().nextInt(5) + 1);
-            subjectIntegerMap.put(LITERATURE, new Random().nextInt(5) + 1);
+            subjectIntegerMap.put(Subject.UKRAINIAN, new Random().nextInt(5) + 1);
+            subjectIntegerMap.put(Subject.ENGLISH, new Random().nextInt(5) + 1);
+            subjectIntegerMap.put(Subject.PROGRAMMING, new Random().nextInt(5) + 1);
+            subjectIntegerMap.put(Subject.MATHEMATICS, new Random().nextInt(5) + 1);
+            subjectIntegerMap.put(Subject.PHYSICS, new Random().nextInt(5) + 1);
+            subjectIntegerMap.put(Subject.LITERATURE, new Random().nextInt(5) + 1);
 
             marksJournal.getMap().put(student, subjectIntegerMap);
         }
@@ -150,8 +147,8 @@ public class InitService {
                     List.of("Олег", "Дмитро", "Андрій", "Степан", "Артур"),
                     List.of("Шевченко", "Франко", "Сніговик", "Вареник", "Король"));
             Schedule schedule1 = initSchedule(
-                    List.of(ENGLISH, UKRAINIAN, PROGRAMMING, PROGRAMMING, PHYSICS),
-                    List.of(MATHEMATICS, LITERATURE, ENGLISH, PROGRAMMING, UKRAINIAN));
+                    List.of(Subject.ENGLISH, Subject.UKRAINIAN, Subject.PROGRAMMING, Subject.PROGRAMMING, Subject.PHYSICS),
+                    List.of(Subject.MATHEMATICS, Subject.LITERATURE, Subject.ENGLISH, Subject.PROGRAMMING, Subject.UKRAINIAN));
             Map<Student, Map<Subject, Boolean>> attendBook1 = initAttendBook(students1);
             MarksJournal marksJournal1 = initMarksJournal(students1);
 
@@ -162,8 +159,8 @@ public class InitService {
                     List.of("Піп", "Борщ", "Вареник", "Кульчицький", "Лукаш")
             );
             Schedule schedule2 = initSchedule(
-                    List.of(PROGRAMMING, ENGLISH, PHYSICS, MATHEMATICS, LITERATURE),
-                    List.of(UKRAINIAN, ENGLISH, PROGRAMMING, UKRAINIAN, PROGRAMMING)
+                    List.of(Subject.PROGRAMMING, Subject.ENGLISH, Subject.PHYSICS, Subject.MATHEMATICS, Subject.LITERATURE),
+                    List.of(Subject.UKRAINIAN, Subject.ENGLISH, Subject.PROGRAMMING, Subject.UKRAINIAN, Subject.PROGRAMMING)
             );
             Map<Student, Map<Subject, Boolean>> attendBook2 = initAttendBook(students2);
             MarksJournal marksJournal2 = initMarksJournal(students2);

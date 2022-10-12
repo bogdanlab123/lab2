@@ -1,13 +1,13 @@
-package org.bodya.task3;
+package org.bodya.lab2.task3;
 
-import org.bodya.task2.entities.Group;
-import org.bodya.task2.entities.University;
-import org.bodya.task2.enums.Subject;
-import org.bodya.task3.service.GroupService;
+import org.bodya.lab2.task2.entities.Group;
+import org.bodya.lab2.task2.enums.Subject;
+import org.bodya.lab2.task2.entities.University;
+import org.bodya.lab2.task3.service.GroupService;
 
 import java.time.LocalDate;
 
-import static org.bodya.task2.initService.InitService.initUniversity;
+import static org.bodya.lab2.task2.initService.InitService.initUniversity;
 
 public class Main {
 

@@ -1,9 +1,5 @@
-package org.bodya.task2.entities;
+package org.bodya.lab2.task2.entities;
 
-import org.bodya.task2.enums.Subject;
-
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 public class Student implements Comparable<Student>{

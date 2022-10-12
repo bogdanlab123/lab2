@@ -1,10 +1,9 @@
-package org.bodya.task4;
+package org.bodya.lab2.task4;
 
-import org.bodya.task2.entities.Student;
-import org.bodya.task2.entities.University;
-import org.bodya.task2.enums.Subject;
-import org.bodya.task2.initService.InitService;
-import org.bodya.task4.MarksJournal;
+import org.bodya.lab2.task2.entities.Student;
+import org.bodya.lab2.task2.enums.Subject;
+import org.bodya.lab2.task2.initService.InitService;
+import org.bodya.lab2.task2.entities.University;
 
 public class Main {
     public static void main(String[] args) {
