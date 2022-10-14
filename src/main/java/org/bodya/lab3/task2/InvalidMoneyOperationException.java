@@ -1,7 +1,6 @@
 package org.bodya.lab3.task2;
 
-import org.bodya.lab3.task1.Person;
-import org.bodya.lab3.task1.Product;
+import org.bodya.lab3.task1.entities.Person;
 
 /**
  * Клас для виключень пов'язаних з операціями обробки коштів.

@@ -4,31 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2850bb0-ec07-4181-98b6-6349aedc6f3b" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Seller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task2/InvalidMoneyOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task2/ShopException.java" afterDir="false" />
+    <list default="true" id="f2850bb0-ec07-4181-98b6-6349aedc6f3b" name="Changes" comment="Before task 4 is developed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/entities/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task3/service/BuyerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task3/service/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task4/MyThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task1/DoubleLinkedDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task1/DoubleLinkedDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task1/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task1/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task2/entities/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task2/entities/Schedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task2/entities/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/entities/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task2/entities/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/enums/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task2/enums/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task2/initService/InitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task2/initService/InitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task3/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task3/service/GroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/task4/MarksJournal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab2/task4/MarksJournal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/entities/Buyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/entities/Check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/enums/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/entities/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task1/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task2/InvalidMoneyOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task2/InvalidMoneyOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task2/ShopException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bodya/lab3/task2/ShopException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +52,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Patiuk/NULP/2 курс/JAVA/laboratory3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,12 +65,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.org.bodya.lab3.task1.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.bodya.task2.Main" />
+    <configuration name="org.bodya.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.bodya.Main" />
       <module name="bodya" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.bodya.task2.*" />
+          <option name="PATTERN" value="org.bodya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +83,7 @@
       <module name="bodya" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.bodya.lab3.task1.*" />
+          <option name="PATTERN" value="org.bodya.lab3.task1.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.bodya.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.bodya.task1.Main" />
+    <configuration name="org.bodya.lab3.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.bodya.lab3.task4.Main" />
       <module name="bodya" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.bodya.task1.*" />
+          <option name="PATTERN" value="org.bodya.lab3.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.org.bodya.lab3.task1.Main" />
+        <item itemvalue="Application.org.bodya.Main" />
+        <item itemvalue="Application.org.bodya.lab3.task4.Main" />
         <item itemvalue="Application.org.bodya.task4.Main" />
         <item itemvalue="Application.org.bodya.task3.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.bodya.task1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +159,9 @@
       <workItem from="1665064070528" duration="1542000" />
       <workItem from="1665071306435" duration="8000" />
       <workItem from="1665425069845" duration="12144000" />
+      <workItem from="1665594587471" duration="14902000" />
+      <workItem from="1665737524306" duration="930000" />
+      <workItem from="1665745471703" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1,2 done">
       <created>1664715641223</created>
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665064963587</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Before task 4 is developed">
+      <created>1665594964742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665594964742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +219,7 @@
     <MESSAGE value="Task 1,2 done" />
     <MESSAGE value="Task 3,4 done" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Before task 4 is developed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before task 4 is developed" />
   </component>
 </project>

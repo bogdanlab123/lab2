@@ -1,5 +1,10 @@
-package org.bodya.lab3.task1;
+package org.bodya.lab3.task1.entities;
 
+import org.bodya.lab3.task1.enums.Product;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -12,16 +17,27 @@ import java.util.Objects;
 public class Check {
     // Без сетера. Лише отримати, додати, видалити один, видалити всі
     private Map<Product, Integer> products = new HashMap<>();
+    // Дата покупки. Без сетера. Лише отримати
+    private LocalDate localDate;
 
     public Check() {
     }
 
-    public Check(Map<Product, Integer> products) {
+    public Check(LocalDate localDate) {
+        this.localDate = localDate;
+    }
+
+    public Check(Map<Product, Integer> products, LocalDate localDateTime) {
         this.products = products;
+        this.localDate = localDateTime;
     }
 
     public Map<Product, Integer> getProducts() {
         return products;
+    }
+
+    public LocalDate getLocalDate() {
+        return localDate;
     }
 
     /**
@@ -39,18 +55,11 @@ public class Check {
 
     /**
      * Метод для додавання товару в чек (корзину).
-     * Якщо товар вже є в чеку, то збільшити кількість на 1,
-     * якщо нема, додати в чек.
      *
      * @param product - продукт для додавання в чек (корзину).
      */
-    public void putProductToCheck(final Product product) {
-        if (!products.containsKey(product)) {
-            products.put(product, 1);
-        } else {
-            products.replace(product, products.get(product) + 1);
-
-        }
+    public void putProductToCheck(final Map.Entry<Product, Integer> product) {
+        products.put(product.getKey(), product.getValue());
     }
 
     /**
@@ -102,7 +111,6 @@ public class Check {
      */
     public String asString() {
         StringBuilder check = new StringBuilder();
-        Double productPrice = getProductsPrice();
         check.append("#######################\n");
         check.append("#                     #\n");
         check.append("#         ЧЕК         #\n");
@@ -111,20 +119,27 @@ public class Check {
         for (Map.Entry<Product, Integer> entry : products.entrySet()) {
             check.append("# ");
             check.append(entry.getKey().getName());
-            check.append(" ".repeat(19-entry.getKey().getName().length()));
+            check.append(" ".repeat(19 - entry.getKey().getName().length()));
             check.append(" #\n#");
-            check.append(" ".repeat(18-String.valueOf(entry.getValue()).length()));
+            check.append(" ".repeat(18 - String.valueOf(entry.getValue()).length()));
             check.append("x ");
             check.append(entry.getValue());
             check.append(" #\n#");
-            check.append(" ".repeat(20-String.valueOf(entry.getKey().getPrice()).length()));
-            check.append(entry.getKey().getPrice());
+            BigDecimal price = BigDecimal.valueOf(entry.getKey().getPrice());
+            price = price.setScale(2, RoundingMode.HALF_UP);
+            check.append(" ".repeat(20 - price.toString().length()));
+            check.append(price);
             check.append(" #\n");
         }
         check.append("#######################\n#");
-        check.append(" ".repeat(13-String.valueOf(productPrice).length()));
+        BigDecimal productPrice = BigDecimal.valueOf(getProductsPrice());
+        productPrice = productPrice.setScale(2, RoundingMode.HALF_UP);
+        check.append(" ".repeat(13 - productPrice.toString().length()));
         check.append("Разом: ");
         check.append(productPrice);
+        check.append(" #\n#");
+        check.append(" ".repeat(20 - localDate.toString().length()));
+        check.append(localDate);
         check.append(" #\n");
         check.append("#######################");
         return check.toString();

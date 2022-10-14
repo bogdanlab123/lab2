@@ -1,4 +1,4 @@
-package org.bodya.lab3.task1;
+package org.bodya.lab3.task1.enums;
 
 public enum Product {
     BREAD("Хліб", 15.30),

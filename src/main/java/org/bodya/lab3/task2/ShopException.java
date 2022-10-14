@@ -1,6 +1,6 @@
 package org.bodya.lab3.task2;
 
-import org.bodya.lab3.task1.Product;
+import org.bodya.lab3.task1.enums.Product;
 
 /**
  * Клас для виключень пов'язаних з операціями пов'язаниз з

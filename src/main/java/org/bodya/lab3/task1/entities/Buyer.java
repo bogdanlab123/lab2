@@ -1,7 +1,9 @@
-package org.bodya.lab3.task1;
+package org.bodya.lab3.task1.entities;
 
 import org.bodya.lab3.task2.InvalidMoneyOperationException;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -10,6 +12,7 @@ import java.util.Objects;
 public class Buyer extends Person {
     // Кошти покупця. Сетер недоступний
     private Double money;
+    private List<Check> checkList = new ArrayList<>();
 
     public Buyer() {
     }
@@ -21,6 +24,14 @@ public class Buyer extends Person {
 
     public Double getMoney() {
         return money;
+    }
+
+    public List<Check> getCheckList() {
+        return checkList;
+    }
+
+    public void setCheckList(List<Check> checkList) {
+        this.checkList = checkList;
     }
 
     /**
@@ -66,6 +77,7 @@ public class Buyer extends Person {
     public String toString() {
         return "Buyer{" +
                 "money=" + money +
+                ", checkList=" + checkList +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 '}';

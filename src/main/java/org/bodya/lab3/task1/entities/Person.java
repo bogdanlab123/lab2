@@ -1,4 +1,4 @@
-package org.bodya.lab3.task1;
+package org.bodya.lab3.task1.entities;
 
 import java.util.Objects;
 
